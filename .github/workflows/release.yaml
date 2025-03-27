@@ -24,7 +24,7 @@
       steps:
   
         - name: Checkout Falcoctl Repo
-          uses: actions/checkout@v3
+          uses: actions/checkout@v4
           with:
             repository: falcosecurity/falcoctl
             ref: main
@@ -41,7 +41,7 @@
           working-directory: tools/falcoctl
   
         - name: Checkout Rules Repo
-          uses: actions/checkout@v3
+          uses: actions/checkout@v4
           with:
             path: rules
   
